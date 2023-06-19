@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    flex-direction: column;
+}
+.card__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 2em 0 2em;
+}
+.card__titulo {
+    font-family: var(--fonte);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--azul);
+}
+.card__texto {
+    font-family: var(--fonte);
+    font-weight: 500;
+    padding: 1em 2em;
+    text-align: right;
+}
+.card__texto-1 {
+    font-family: var(--fonte);
+    font-weight: 500;
+    padding: 1em 2em 3em 2em;
+    text-align: right;
+}

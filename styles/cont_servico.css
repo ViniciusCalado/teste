@@ -1,0 +1,18 @@
+.servico__apresentacao {
+    background-image: url(/assets/retangulo_azul.svg);
+    color: var(--cor-de-fundo);
+    font-family: var(--fonte);
+}
+.servico__titulo {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 1em;
+    padding-top: 1em;
+}
+.servico__titulo strong{
+    font-weight: 800;
+}
+.servico__subtitulo {
+    margin: 1.5em 1.5em 0 1.5em;
+    padding-bottom: 1.5em;
+}

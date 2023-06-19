@@ -1,0 +1,30 @@
+@import url("/styles/header.css");
+@import url("/styles/header__servico.css");
+@import url("/styles/apresentacao.css");
+@import url("/styles/card.css");
+@import url("/styles/rodape.css");
+@import url("/styles/contato.css");
+@import url("/styles/cont_servico.css");
+@import url("/styles/cartao.css");
+@import url("/styles/especialidade.css");
+@import url("/styles/home.css");
+@import url("/styles/ancora.css");
+:root {
+    --cor-de-fundo: #F5F5F5;
+    --azul: #0000FF;
+    --azul-degrade: linear-gradient(0deg, #1B1464, #1B1464),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    --preto: black;
+    --azul-escuro:#1B1464;
+    --fonte: 'Lato';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: var(--fonte);
+    background: var(--cor-de-fundo);
+    color: var(--preto);
+}

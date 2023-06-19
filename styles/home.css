@@ -1,0 +1,40 @@
+.home {
+    background-image: url(/assets/becky_inicial.svg);
+    background-repeat: no-repeat;
+}
+.container__home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home__img {
+    height: 128px;
+    padding-top: 2em;
+}
+.home__titulo {
+    padding-top: .5em;
+    font-family: var(--fonte);
+    font-weight: 800;
+    font-size: 32px;
+    color: var(--azul-escuro);
+}
+.home__subtitulo {
+    font-family: var(--fonte);
+    font-size: 7px;
+    letter-spacing: 0.37em;
+}
+.container__trabalho {
+    padding: 8em 2em 0 2em;
+    font-family: var(--fonte);
+}
+.trabalho__texto {
+    font-size: 24px;
+    font-weight: 700;
+}
+.trabalho__subtexto {
+    padding: 4em 0;
+    font-weight: 500;
+}
+.trabalho__texto strong, .trabalho__subtexto strong{
+    color: var(--azul);
+}

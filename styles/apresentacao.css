@@ -1,0 +1,23 @@
+.apresentacao {
+    font-family: var(--fonte);
+}
+.apresentacao__titulo {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0 1em;
+    color: #1B1464;
+}
+.apresentacao__texto {
+    margin: 1.5em;
+}
+.questao__pergunta {
+    background-image: url(/assets/retangulo_azul.svg);
+    color: var(--cor-de-fundo);
+    font-weight: 900;
+    font-family: var(--fonte);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 82px 0;
+    text-transform: uppercase;
+}

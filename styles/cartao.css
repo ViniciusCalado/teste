@@ -1,0 +1,41 @@
+.cartao {
+    display: flex;
+    flex-direction: column;
+}
+.cartao__top-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2em;
+    margin: 1em 2em 0 1.5em;
+}
+.cartao__top-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+    margin: 1em 2em 0 2em;
+}
+.cartao__top-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+    margin: 1em 2em 0 1.5em;
+}
+.cartao__titulo {
+    font-family: var(--fonte);
+    font-size: 24px;
+    color: var(--azul-escuro);
+    font-weight: 600;
+}
+.cartao__texto {
+    font-family: var(--fonte);
+    color: var(--preto);
+    margin: 1.5em;
+}
+.cartao__texto-3 {
+    font-family: var(--fonte);
+    color: var(--preto);
+    margin: 1.5em;
+}
